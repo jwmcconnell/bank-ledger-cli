@@ -28,7 +28,7 @@ const createAccountPrompt = () => {
       .send({ username: answers.username, password: answers.password });
   }).then(res => {
     const { username } = res.body;
-    console.log(`Welcome back to Jack's Bank ${username}!`);
+    console.log(`Welcome to Jack's Bank ${username}!`);
   });
 };
 
@@ -47,7 +47,7 @@ const loginPrompt = () => {
       .send({ username: answers.username, password: answers.password });
   }).then(res => {
     const { username } = res.body;
-    console.log(`Welcome to Jack's Bank ${username}!`);
+    console.log(`Welcome back to Jack's Bank ${username}!`);
   });
 };
 
