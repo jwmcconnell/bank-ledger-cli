@@ -1,3 +1,7 @@
-const home = require('./lib/prompts/home');
+const { home } = require('./lib/app');
 
-home();
+const main = () => {
+  home();
+};
+
+main();
